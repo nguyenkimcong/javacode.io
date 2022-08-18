@@ -71,7 +71,7 @@ public class Main {
         studentUpdateClassification.setClassification(newClassification);
         System.out.println(techMaster.toString());
 
-        // Xoa hoc vien
+      
         System.out.println("Xoa hoc vien theo ID");
         System.out.println("Hay nhap ID");
         int idDel = scanner.nextInt();
