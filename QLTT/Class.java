@@ -15,7 +15,7 @@ public class Class {
     }
 
     
-     /// add sutdent
+ 
     public void addStudent ( Student student){
         students.add(student);
     }
@@ -30,7 +30,7 @@ public class Class {
         return studentWithID;
     }
 
-    // compare ID
+   
     public boolean compareByID(int num){
         boolean isBoolean = false;
         for (Student temp : students) {
